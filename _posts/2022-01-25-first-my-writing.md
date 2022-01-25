@@ -1,9 +1,9 @@
 ---
-title: 첫 포스팅
+title: 첫 포스팅, 마크다운 문법
 
 date: 2022-01-25 23:57:00 +0900
 
-categories: [일상]
+categories: [Markdown]
 
 ---
 
