@@ -42,7 +42,7 @@ tags: [intellij]
 + ctrl shift E : 최근 수정한 파일 목록 보기
 + ctrl space : 자동완성 **들어갈 수 있는 모든걸 보여줌**
 + ctrl shift space : 스마트 자동완성 **필터링된 기능만 보여줌**
-+ (ctrl Space ) * 2 : 스태틱 메소드 자동완성 , asserthat 같은 메소드에 쓴다는데 추후 실습해보기
++ ctrl Space * 2 : 스태틱 메소드 자동완성 , asserthat 같은 메소드에 쓴다는데 추후 실습해보기
 + ctrl I : override 메소드 자동완성
 + alt enter : 들어갈 수 있는 제안서를 받기
 
