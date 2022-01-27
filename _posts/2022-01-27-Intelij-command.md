@@ -10,6 +10,8 @@ tags: [intellij]
 
 ### Windows  Intellij 필요할 것 같은 단축키 정리
 
+### Windows  Intellij 필요할 것 같은 단축키 정리
++ ALT <-,-> : 파일 왼쪽 오른쪽 이동
 + ctrl Z : undo
 + ctrl shift Z : redo
 + ctrl shift I : 코드 구현부 즉시 보기
