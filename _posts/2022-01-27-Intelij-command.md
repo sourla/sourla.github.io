@@ -62,14 +62,18 @@ tags: [intellij]
 
 
 ### Git 기본기능 사용하기
-* ALT 9 : git을 볼수있는 단축키
+* ALT 9 : git view 보는 법
 * local changes 탭에서는 로컬에서 현재 변경된 내용을 알 수 있음
 * log 탭은 commit 된 로그를 볼 수 있음
-* ALt `(백틱) : VSC(버전 소스 컨트롤) 명령창 띄울 수 있음
+* ALt `(백틱) : VSC(버전 소스 컨트롤) 명령창 git option popup 띄울 수 있음
+* ALt `(백틱) -> 4 : git history 보는법
+* ALt `(백틱) -> 7 : branch 따는법
 * ctrl k : 커밋
-* ctrl shift k  : commit and push
+* ctrl shift k  : push
+* ctrl shift a -> git pull : 액션에서 pull 찾아서 땡기기
 
-
+### github 연동
+* ctrl shift a -> share project github : github에 new repository 생성
 
 
 
