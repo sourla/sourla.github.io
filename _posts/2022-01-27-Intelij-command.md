@@ -18,13 +18,18 @@ tags: [intellij]
 + F2  : 오류라인 자동 포커스
 + ctrl P  : 파라미터값 보기
 + ctrl Q : DOC 즉시보기
+
 ---
+
 ### 정규표현식으로도 단어 검색이 가능하나 설정이 필요
+
 + ctrl F : 현재 파일에서 찾기
 + ctrl F : 현재 파일에서 찾기
 + ctrl shift R : 전체 파일에서 교체
 + ctrl shift R : 전체 파일에서 교체
+
 ---
+
 + ctrl D : 한줄 복사
 + ctrl Y : 한줄 삭제
 + ctrl shift ↑↓ : 줄 위아래로 이동
@@ -38,16 +43,25 @@ tags: [intellij]
 + (ctrl Space ) * 2 : 스태틱 메소드 자동완성 , asserthat 같은 메소드에 쓴다는데 추후 실습해보기
 + ctrl I : override 메소드 자동완성
 + alt enter : 들어갈 수 있는 제안서를 받기
+
 ---
+
 * ctrl J : live template 목록 보여주기
+
 ---
+
+
 ### 리팩토링 extract(추출) 하는 단축키
+
+
 * ctrl alt V : 변수 추출하기
 * ctrl alt P : 파라미터 추출
 * ctrl alt M : 메소드 추출
 * F6 : 이너클래스 추출 클래스 구현한 내용을 밖으로 뺄 때 사용
 
 ### 리팩토링 기타
+
+
 * shift F6  : 변수명 일괄 변경
 * ctrl shift F6 : 타입 일괄 변경
 * inport 자동 정렬 : optimize import on 설정을 키면 됨
@@ -55,6 +69,7 @@ tags: [intellij]
 
 
 ### Debug
+
 * F8 : Step Over (현재 브레이크에서 다음 한줄로 이동)
 * F7 : Step info 현재 브레이크의 다음 메소드 이동
 * shift F8 : Step Out (현재 메소드의 밖으로 이동)
@@ -62,6 +77,7 @@ tags: [intellij]
 
 
 ### Git 기본기능 사용하기
+
 * ALT 9 : git view 보는 법
 * local changes 탭에서는 로컬에서 현재 변경된 내용을 알 수 있음
 * log 탭은 commit 된 로그를 볼 수 있음
@@ -73,6 +89,7 @@ tags: [intellij]
 * ctrl shift a -> git pull : 액션에서 pull 찾아서 땡기기
 
 ### github 연동
+
 * ctrl shift a -> share project github : github에 new repository 생성
 
 
