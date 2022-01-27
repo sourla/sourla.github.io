@@ -23,8 +23,8 @@ function a(x) {    // Outer function
 
 console.log(a(5)(4))
 
-출력 결과
-1
+//출력 결과
+//1
 ```
   + 위의 예에서 a()는 외부 함수이고 b()는 내부 함수입니다. 반환된 최종 결과는 두 함수의 인수를 사용합니다
   + 외부에서 b를 호출하는것은 불가능하고 a 내부에서만 사용될 것을 명식적으로 나타냅니다.
@@ -45,8 +45,8 @@ function outer (){
 var inner = outer();
 inner(); // 'dolarge'
 
-출력 결과
-'dolarge'
+//출력 결과
+//'dolarge'
 ```
   ### 클로저를 통한 은닉화
 
