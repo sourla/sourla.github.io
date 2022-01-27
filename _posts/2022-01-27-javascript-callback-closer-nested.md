@@ -13,7 +13,8 @@ tags: [태그]
 ## 중첩 함수
   + 외부에 있는 기능을 외부 기능이라고 합니다. 내부에 중첩된 함수를 내부 함수라고 합니다. 각 함수는 다른 인수를 받아들일 수 있습니다.
 
-```Javascript
+
+```javascript
 function a(x) {    // Outer function
   function b(y) { // inner function
     return x - y;
@@ -34,7 +35,7 @@ console.log(a(5)(4))
   + 클로저는 자신을 포함하고 있는 외부함수의 인자, 지역변수 등을 외부함수가 종료된 이후에도 사용할수 있다. 이러한 변수를 자유변수라고 한다.
   + 클로저가 생성될때 범위 내의 지역변수들을 자유변수로 만드는 것을 캡쳐라고 한다.
 
-```Javascript
+```javascript
 function outer (){
 	var name = 'dolarge';
   	return function () {
