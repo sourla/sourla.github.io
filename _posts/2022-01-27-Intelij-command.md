@@ -66,6 +66,9 @@ tags: [intellij]
 * local changes 탭에서는 로컬에서 현재 변경된 내용을 알 수 있음
 * log 탭은 commit 된 로그를 볼 수 있음
 * ALt `(백틱) : VSC(버전 소스 컨트롤) 명령창 띄울 수 있음
+* ctrl k : 커밋
+* ctrl shift k  : commit and push
+
 
 
 
