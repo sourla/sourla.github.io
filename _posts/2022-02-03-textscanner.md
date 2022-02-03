@@ -26,6 +26,52 @@ tags: [javascript]
   + 캡쳐 영역을 컨트롤 하기 위한 mousedown, mouseup, mousemove 코드
   + 캡쳐된 이미지를 canvas로 한번 생성, canvas를 생성하여 2배 확대
   + 2배 확대된 이미지를 Tesseract로 텍스트 인식하도록 수정
+  + 하기 캡처에 사용한  css도 첨부함
+
+```css
+
+            #screenshot_mask {
+                width: 100%;
+                height: 100%;
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                display: block;
+                opacity: 0.3;
+                text-align: center;
+                box-sizing: border-box;
+                z-index: 2147483647;
+                border-color: black;
+                border-style: solid;
+            }
+            #screenshot_focus:before,
+            #screenshot_focus:after {
+                border: none !important;
+                content: '' !important;
+                height: 100% !important;
+                position: absolute !important;
+                width: 100% !important;
+            }
+            #screenshot_focus:before {
+                border-right: 1px solid white !important;
+                border-bottom: 1px solid white !important;
+                left: -100% !important;
+                top: -100% !important;
+            }
+            #screenshot_focus:after {
+                border-top: 1px solid white !important;
+                border-left: 1px solid white !important;
+                left: 0 !important;
+                top: 0 !important;
+            }
+            #screenshot_focus {
+                height: 100% !important;
+                position: fixed !important;
+                width: 100% !important;
+                z-index: 2147483648 !important;
+            }
+
+```
 
 ```javascript
     function captureTxt(obj) {
