@@ -3,9 +3,10 @@ title: Javascript 중첩함수 , 콜백 함수 , 클로저 함수
 
 date: 2022-01-27 17:16:00 +0900
 
-categories: [카테고리]
+categories: [javascript]
 
-tags: [태그]
+
+tags: [javascript]
 ---
 
 # Javascript 중첩함수 ,  클로저 함수 , 콜백 함수
