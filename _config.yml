@@ -96,6 +96,10 @@ comments:
 
 paginate: 10
 
+assets:
+  self_host:
+    enabled: true
+
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:

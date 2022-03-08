@@ -12,7 +12,6 @@ tags: [tomcat,java]
 
 1. 증상
     + 노후화된 서버의 페이지가 https 접속이 되지않음(화면 첨부)
-      ![왜 안되냥 ](https://user-images.githubusercontent.com/45420310/157156567-469892eb-d257-4a99-bfb1-2e3ddc9187d2.png)
 
 
 2. 원인
