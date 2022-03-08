@@ -12,7 +12,6 @@ tags: [tomcat,java]
 
 1. 증상
     + 노후화된 서버의 페이지가 https 접속이 되지않음(화면 첨부)
-    +  ![img.png](img.png)
 
 
 2. 원인
