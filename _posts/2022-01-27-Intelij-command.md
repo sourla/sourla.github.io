@@ -20,6 +20,7 @@ tags: [intellij]
 + F2  : 오류라인 자동 포커스
 + ctrl P  : 파라미터값 보기
 + ctrl Q : DOC 즉시보기
++ ctrl shfit \ (역슬래시) : URL 검색 / URL mapper
 
 ---
 
