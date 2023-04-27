@@ -123,4 +123,6 @@ tags: [intellij]
 * ctrl + j 간단하게 문자 찾기
 * ctrl + shift + j : insert live templ -> postfix 키
 * alt + insert 탐색기에서 쓰면 파일 생성이고, 코드에서 쓰면 다름
+* ctrl + l  : commit 로그에서 쓰면 검색창에 커서감
+* alt + down : 검색창에서 최근기록
 
