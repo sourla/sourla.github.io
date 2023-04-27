@@ -20,7 +20,7 @@ tags: [intellij]
 + F2  : 오류라인 자동 포커스
 + ctrl P  : 파라미터값 보기
 + ctrl Q : DOC 즉시보기
-+ ctrl shfit \ (역슬래시) : URL 검색 / URL mapper
++ ctrl shift \ (역슬래시) : URL 검색 / URL mapper
 
 ---
 
@@ -96,9 +96,9 @@ tags: [intellij]
 * ctrl shift a -> share project github : github에 new repository 생성
 
 
-###  추가로 단축키
+###  추가로 단축키 udemy 강의 내용중에서 정리중 // 2023-04-27
 * ctrl + alt + v  : 변수 바로 뽑기
-* ctrl + shift + enter : 자동완성 if, try등
+* ctrl + shift + enter : 자동완성 if, try 등
 * 클래스명 생각 안날때,	**대문자 키워드만 챡챡챡** 쓰면 자동완성에 뜸 이걸 **calmelHumps**라고함
   * SmsPreregistServiceImpl 이걸 찾고 싶을때는 SPS라고 치고 찾으면 나옴 예제
 * alt 위아래 메소드 위치 변경 java method name에 커서 놓고 alt 위아래 위치 변경할 수 있음 (함수 째로 움직임 순서 변경 쉬움)
@@ -115,3 +115,12 @@ tags: [intellij]
 * ctrl alt shift ], [ 화면 커서 이동 탭 쉬프터
 * ctrl + alt + v  : 변수 바로 뽑기
 * ctrl + shift + enter : 자동완성 if, try등
+* ctrl + alt + shift + space : type 매칭 자동완성
+* ctrl + alt + shift + space * 2  : type 매칭 자동완성 메소드 등 뭔가 많이해줌
+* ctrl + space * 2 : static 함수 리스트 보여줌
+* alt + enter :  static import 함 , test.aseert()이런게 있을때 alt enter로 import 하면 test 빠지고 aseert() 이렇게 사용 가능
+* alt + enter 로 language injection json 등 타입넣고 해당 타입의 text를 넣으면 intellij 가 데이터를 맞춰줌
+* ctrl + j 간단하게 문자 찾기
+* ctrl + shift + j : insert live templ -> postfix 키
+* alt + insert 탐색기에서 쓰면 파일 생성이고, 코드에서 쓰면 다름
+
