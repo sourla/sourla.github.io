@@ -96,8 +96,22 @@ tags: [intellij]
 * ctrl shift a -> share project github : github에 new repository 생성
 
 
+###  추가로 단축키
+* ctrl + alt + v  : 변수 바로 뽑기
+* ctrl + shift + enter : 자동완성 if, try등
+* 클래스명 생각 안날때,	**대문자 키워드만 챡챡챡** 쓰면 자동완성에 뜸 이걸 **calmelHumps**라고함
+  * SmsPreregistServiceImpl 이걸 찾고 싶을때는 SPS라고 치고 찾으면 나옴 예제
+* alt 위아래 메소드 위치 변경 java method name에 커서 놓고 alt 위아래 위치 변경할 수 있음 (함수 째로 움직임 순서 변경 쉬움)
+* alt 위아래 라인 위치 변경도
+* ctrl p 메소드 파라미터 보기 (수정한 단축키)
+* 내꺼 단축키 등록  alt enter(ctrl 1 은 다른걸로 쓰는중)
 
-
-
-
-
+* ctrl - 블럭 접기
+* ctrl + 블럭 펴기
+* alt 왼쪽 뒤로가기
+* ctrl + e 최근 파일 // datagrip 과 동일
+* ctrl + shift +  e 최근 파일 중 수정된 부분 // datagrip은 새로고침함
+* alt shift ], [ 화면 나누기
+* ctrl alt shift ], [ 화면 커서 이동 탭 쉬프터
+* ctrl + alt + v  : 변수 바로 뽑기
+* ctrl + shift + enter : 자동완성 if, try등
