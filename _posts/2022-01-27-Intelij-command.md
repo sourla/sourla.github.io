@@ -118,11 +118,12 @@ tags: [intellij]
 * ctrl + alt + shift + space : type 매칭 자동완성
 * ctrl + alt + shift + space * 2  : type 매칭 자동완성 메소드 등 뭔가 많이해줌
 * ctrl + space * 2 : static 함수 리스트 보여줌
-* alt + enter :  static import 함 , test.aseert()이런게 있을때 alt enter로 import 하면 test 빠지고 aseert() 이렇게 사용 가능
-* alt + enter 로 language injection json 등 타입넣고 해당 타입의 text를 넣으면 intellij 가 데이터를 맞춰줌
+* alt + enter(ctrl + 1 로 커마) :  static import 함 , test.aseert()이런게 있을때 alt enter로 import 하면 test 빠지고 aseert() 이렇게 사용 가능
+* alt + enter (ctrl + 1 로 커마) 로 language injection json 등 타입넣고 해당 타입의 text를 넣으면 intellij 가 데이터를 맞춰줌
 * ctrl + j 간단하게 문자 찾기
 * ctrl + shift + j : insert live templ -> postfix 키
 * alt + insert 탐색기에서 쓰면 파일 생성이고, 코드에서 쓰면 다름
 * ctrl + l  : commit 로그에서 쓰면 검색창에 커서감
 * alt + down : 검색창에서 최근기록
+* alt + ' : emmet 단축키
 
