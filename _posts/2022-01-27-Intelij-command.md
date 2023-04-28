@@ -127,3 +127,15 @@ tags: [intellij]
 * alt + down : 검색창에서 최근기록
 * alt + ' : emmet 단축키
 
+* ctrl alt V : 변수 추출하기
+* ctrl alt P : 파라미터 추출
+* alt shift M : 메소드 추출
+
+
+### 잘 쓰고 싶은 거
+* ctrl + j 간단하게 문자 찾기
+* ctrl + alt + shift + space : type 매칭 자동완성
+* ctrl + alt + shift + space * 2  : type 매칭 자동완성 메소드 등 뭔가 많이해줌
+* ctrl + shift + j : insert live templ -> postfix 키
+* alt + shift + z : 서라운드 코드
+* ctrl + shift + alt + t : 리팩토링 다보여줌
