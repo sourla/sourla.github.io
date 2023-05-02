@@ -139,3 +139,4 @@ tags: [intellij]
 * ctrl + shift + j : insert live templ -> postfix 키
 * alt + shift + z : 서라운드 코드
 * ctrl + shift + alt + t : 리팩토링 다보여줌
+* ctrl + alt + [] : intellij idea 프로젝트 창끼리 포커싱 움직이기
