@@ -1,5 +1,6 @@
 # hidden files
 .*
+!.idea/fileTemplates/Markdown.md
 !.git*
 !.editorconfig
 !.nojekyll
