@@ -91,3 +91,9 @@ __double underscores__
 ```
 [Google](https://google.com, "google link")
 ```
+
+
+## 6.이미지
+assets에 올리고 미리보기는 링크 눌러서 확인하는걸로 하자
+
+![Image Alt 텍스트](/assets/img/favicons/favicon-96x96.png)
