@@ -60,6 +60,10 @@ tags: [ intellij ]
    + 선택된 영역 확장
    + ![selection ](/assets/gif/expandSelection.gif)
 
+7. always select opened file
+   + 에디터로 편집하고있는 파일의 위치로 탐색기가 이동함
+
+
 
 
 
