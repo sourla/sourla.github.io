@@ -12,6 +12,7 @@ tags: [ intellij ]
 # Intellij 쓰면서 공유하고 싶은 내용
 
 + 플러그인들
+
 1. Translation
    + 번역 플러그인으로 Intellij 안에서 바로 번역이 가능, 엔진또한 설정 가능
    + ![번역 움짤](/assets/gif/translation.gif)
@@ -34,6 +35,7 @@ tags: [ intellij ]
 
 
 + 기능 / 단축키 (기본셋팅을 eclipse keymap 사용으로 단축키 기능 이름도 같이 공유 할 예정)
+
 1. alt + enter (Show Context Actions)
    + 작업 제안 하는 기능으로 intellij 할수 있는 것을 제안해줌
    + 하기 캡쳐는 제안 중 변수로 넣어달라는 기능을 사용한 캡쳐
