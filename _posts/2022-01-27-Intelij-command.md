@@ -130,6 +130,7 @@ tags: [intellij]
 * ctrl alt V : 변수 추출하기
 * ctrl alt P : 파라미터 추출
 * alt shift M : 메소드 추출
+* emmet 은 다 쓰고 탭키로 완성함
 
 
 ### 잘 쓰고 싶은 거
