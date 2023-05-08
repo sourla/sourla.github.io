@@ -15,10 +15,12 @@ tags: [ intellij ]
 
 1. Translation
    + 번역 플러그인으로 Intellij 안에서 바로 번역이 가능, 엔진또한 설정 가능
+   + ctrl + shift + o : 단축키
    + ![번역 움짤](/assets/gif/translation.gif)
 
 2. GenerateAllSetter
    + object의 setter를 호출하는 부분을 자동완성 해주는 기능
+   + (Show Context Actions) 선택
    + ![생성 움짤](/assets/gif/GenerateAllSetter.gif)
 
 3. JSON Viewer
