@@ -67,6 +67,9 @@ tags: [ intellij ]
 7. always select opened file
    + 에디터로 편집하고있는 파일의 위치로 탐색기가 이동함
 
+8. ctrl + shift + v : paste from history
+   + 과거 카피한 내용 중 선택하여 붙여넣기
+   + ![Copy ](/assets/gif/copypaste.png)
 
 ### 공유할 기능이 생기면 추후에도 업데이트 할 예정
 
