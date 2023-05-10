@@ -132,6 +132,7 @@ tags: [intellij]
 * alt shift M : 메소드 추출
 * emmet 은 다 쓰고 탭키로 완성함
 * ctrl + alt + F4 // 외부 에디터 바로 열기, 이미지 확인 시 유용할 것으로 보임
+* ctrl + shfit + F8 // 브레이킹 포인트 팝업
 
 
 ### 잘 쓰고 싶은 거
@@ -144,4 +145,5 @@ tags: [intellij]
 * ctrl + alt + [] : intellij idea 프로젝트 창끼리 포커싱 움직이기
 * ctrl + shift + F11 : 익명 북마크 설정
 * shift + F11 : 북마크 팝업
+
 
