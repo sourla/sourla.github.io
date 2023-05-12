@@ -134,6 +134,9 @@ tags: [intellij]
 * ctrl + alt + F4 // 외부 에디터 바로 열기, 이미지 확인 시 유용할 것으로 보임
 * ctrl + shfit + F8 // 브레이킹 포인트 팝업
 
+* ctrl + shift + i : 선언부 보기
+
+
 
 ### 잘 쓰고 싶은 거
 * ctrl + j 간단하게 문자 찾기
