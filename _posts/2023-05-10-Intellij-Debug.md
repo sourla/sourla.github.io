@@ -12,6 +12,6 @@ tags: [intellij]
 # intellij 디버깅 강의 보는중
 
 1. Debug 브레이킹포인트에서 변수에 filter 사용이 가능함
-   + ![Copy ](/assets/gif/copypaste.png)
+   + ![브레이킹 ](/assets/gif/breakingpoint.png)
 
 
