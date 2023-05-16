@@ -135,6 +135,7 @@ tags: [intellij]
 * ctrl + shfit + F8 // 브레이킹 포인트 팝업
 
 * ctrl + shift + i : 선언부 보기
+* ctrl + d : file compare 단축키
 
 
 
