@@ -17,4 +17,9 @@ tags: [intellij]
 2. Debug 브레이킹에서 람다 express를 한눈에 볼 수 있는 옵션을 제공함
    + ![스트림 체인](/assets/gif/StreamChain.png)
 
+3. Debug 브레이킹에서 변수에 label을 달 수 있음, 그 label을 통하여 브레이킹포인트 조건을 명시할 수 있음
+
+4. Debug 원격 연결이 가능함, 하지만 jar를 넣고 포트 지정하는 과정이 있어야 가능
+
+
 
