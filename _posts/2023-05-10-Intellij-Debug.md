@@ -14,4 +14,7 @@ tags: [intellij]
 1. Debug 브레이킹포인트에서 변수에 filter 사용이 가능함
    + ![브레이킹 ](/assets/gif/breakingpoint.png)
 
+2. Debug 브레이킹에서 람다 express를 한눈에 볼 수 있는 옵션을 제공함
+   + ![스트림 체인](/assets/gif/StreamChain.png)
+
 
