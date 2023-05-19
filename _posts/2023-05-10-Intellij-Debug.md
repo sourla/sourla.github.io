@@ -21,7 +21,8 @@ tags: [intellij]
 
 4. Debug 원격 연결이 가능함, 하지만 jar를 넣고 포트 지정하는 과정이 있어야 가능
 
-5. [개발자 도구에 관련된 글][https://velog.io/@leehyunho2001/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%8F%84%EA%B5%AC%EB%A7%8C-%EC%9E%98%EC%8D%A8%EB%8F%84-%EC%9D%B4%EC%81%A8-%EB%B0%9B%EB%8A%94%EB%8B%A4]
+5. [개발자 도구에 관련된 글](https://velog.io/@leehyunho2001/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%8F%84%EA%B5%AC%EB%A7%8C-%EC%9E%98%EC%8D%A8%EB%8F%84-%EC%9D%B4%EC%81%A8-%EB%B0%9B%EB%8A%94%EB%8B%A4)
+
 
 
 
