@@ -23,6 +23,8 @@ secret이라는 기능이 있는것을 확인하였다.
 
 2. 상위 캡쳐의 부분을 넣고 github action의 python으로 실행할 때 이런식으로 넣어준다면 소스에 노출되지도 않고, action에도 나오지 않는 것을 확인하였다. (옵션이 생각보다 좋네)
 ![lotto2.png](/assets/postingImages/lotto2.png)
+   + 하기 사진은 action에서 실행 시 *** 처리 된 예시 사진
+   + ![lotto4](/assets/postingImages/lotto4.png)
 
 
 3. 물론 python에서도 매개변수를 받을 수 있도록 수정해줘야한다.
