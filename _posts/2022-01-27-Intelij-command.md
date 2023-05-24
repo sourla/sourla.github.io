@@ -136,6 +136,7 @@ tags: [intellij]
 
 * ctrl + shift + i : 선언부 보기
 * ctrl + d : file compare 단축키
+* shift + 스크롤  : 좌우 스크롤
 
 
 
@@ -148,6 +149,6 @@ tags: [intellij]
 * ctrl + shift + alt + t : 리팩토링 다보여줌
 * ctrl + alt + [] : intellij idea 프로젝트 창끼리 포커싱 움직이기
 * ctrl + shift + F11 : 익명 북마크 설정
-* shift + F11 : 북마크 팝업
+* shift + F11 : 북마크 팝
 
 
