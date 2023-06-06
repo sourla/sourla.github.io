@@ -150,5 +150,6 @@ tags: [intellij]
 * ctrl + alt + [] : intellij idea 프로젝트 창끼리 포커싱 움직이기
 * ctrl + shift + F11 : 익명 북마크 설정
 * shift + F11 : 북마크 팝
+* shift + F4 : 현재 소스 새창으로 띄우기
 
 
