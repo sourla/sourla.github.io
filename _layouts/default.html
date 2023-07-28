@@ -26,11 +26,11 @@ layout: compress
       <div id="main" class="container px-xxl-5">
         {% include topbar.html lang=lang %}
         {{ content }}
-        {% include_cached search-results.html lang=lang %}
+        {% include search-results.html lang=lang %}
       </div>
     </div>
 
-    {% include_cached footer.html lang=lang %}
+    {% include footer.html lang=lang %}
 
     <div id="mask"></div>
 
@@ -71,6 +71,6 @@ layout: compress
       {% include mermaid.html %}
     {% endif %}
 
-    {% include_cached search-loader.html %}
+    {% include search-loader.html %}
   </body>
 </html>
