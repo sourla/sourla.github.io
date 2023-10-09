@@ -130,6 +130,14 @@ tags: [intellij]
 * ctrl alt V : 변수 추출하기
 * ctrl alt P : 파라미터 추출
 * alt shift M : 메소드 추출
+* emmet 은 다 쓰고 탭키로 완성함
+* ctrl + alt + F4 // 외부 에디터 바로 열기, 이미지 확인 시 유용할 것으로 보임
+* ctrl + shfit + F8 // 브레이킹 포인트 팝업
+
+* ctrl + shift + i : 선언부 보기
+* ctrl + d : file compare 단축키
+* shift + 스크롤  : 좌우 스크롤
+
 
 
 ### 잘 쓰고 싶은 거
@@ -140,3 +148,8 @@ tags: [intellij]
 * alt + shift + z : 서라운드 코드
 * ctrl + shift + alt + t : 리팩토링 다보여줌
 * ctrl + alt + [] : intellij idea 프로젝트 창끼리 포커싱 움직이기
+* ctrl + shift + F11 : 익명 북마크 설정
+* shift + F11 : 북마크 팝
+* shift + F4 : 현재 소스 새창으로 띄우기
+
+
