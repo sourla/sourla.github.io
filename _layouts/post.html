@@ -19,7 +19,8 @@ tail_includes:
       {{ site.data.locales[lang].post.posted }}
       {% include datetime.html date=page.date tooltip=true lang=lang %}
       <!-- 눈 아이콘만 있는 깔끔한 버전 -->
-      <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2F{{ site.url | remove: 'https://' | remove: 'http://' }}{{ page.url }}&count_bg=%23555555&title_bg=%23555555&icon=eye&icon_color=%23FFFFFF&title=+&edge_flat=true" alt="views"/>
+      <!-- _layouts/post.html -->
+      <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://sourla.github.io{{ page.url }}" />
     </span>
 
     <!-- lastmod date -->
