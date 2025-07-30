@@ -16,11 +16,14 @@ tail_includes:
 <div class="post-meta text-muted">
     <!-- published date -->
     <span>
+      <!-- 포스트 레이아웃 끝에 추가 -->
+      <div class="post-views">
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+        <i class="fa fa-eye"></i> <span id="busuanzi_value_page_pv"></span> views
+      </div>
       {{ site.data.locales[lang].post.posted }}
       {% include datetime.html date=page.date tooltip=true lang=lang %}
       <!-- 눈 아이콘만 있는 깔끔한 버전 -->
-      <!-- _layouts/post.html -->
-      <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://sourla.github.io{{ page.url }}" />
     </span>
 
     <!-- lastmod date -->
