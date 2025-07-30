@@ -87,7 +87,7 @@ tail_includes:
       {% endif %}
 
       <!-- read time -->
-      <em id="pageviews"></em> views
+      <em id="page-views"></em> views
       {% include read-time.html content=content prompt=true lang=lang %}
     </div>
 
@@ -155,5 +155,10 @@ tail_includes:
 
   </div><!-- .post-tail-bottom -->
 
-
+  <!-- 조회수 불러오기 및 표시 -->
+  <script>
+    window.goatcounter && window.goatcounter.visit_count({
+      append: '#page-views'
+    });
+  </script>
 </div><!-- div.post-tail-wrapper -->
