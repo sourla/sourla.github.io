@@ -19,25 +19,6 @@ tail_includes:
 <div class="post-meta text-muted">
     <!-- published date -->
     <span>
-      <!-- 조회수 표시하려면 -->
-      <div class="post-meta">
-        조회수: <span id="pageviews">...</span>
-      </div>
-
-      <script>
-      fetch('https://sourla.goatcounter.com/api/v0/stats/pages')
-      .then(r => r.json())
-      .then(data => {
-        const currentPath = window.location.pathname;
-        const pageStats = data.paths.find(p => p.path === currentPath);
-
-        if (pageStats) {
-          document.getElementById('pageviews').innerText = pageStats.count;
-        } else {
-          document.getElementById('pageviews').innerText = '0';
-        }
-      });
-      </script>
 
       {{ site.data.locales[lang].post.posted }}
       {% include datetime.html date=page.date tooltip=true lang=lang %}
