@@ -13,14 +13,39 @@ tail_includes:
 
 <h1 data-toc-skip>{{ page.title }}</h1>
 
+<script data-goatcounter="https://sourla.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
 <div class="post-meta text-muted">
     <!-- published date -->
     <span>
-      <!-- 포스트 레이아웃 끝에 추가 -->
-      <div class="post-views">
-        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-        <i class="fa fa-eye"></i> <span id="busuanzi_value_page_pv"></span> views
+      <!-- 조회수 표시하려면 -->
+      <div class="post-meta">
+        조회수: <span id="pageviews">...</span>
       </div>
+
+      <script>
+      // GoatCounter API v0은 페이지별 조회수를 직접 제공하지 않음
+      // 대신 이렇게 해야 합니다:
+
+      // 1. 전체 통계에서 현재 페이지 찾기
+      fetch('https://sourla.goatcounter.com/api/v0/stats/pages')
+      .then(r => r.json())
+      .then(data => {
+        // 현재 페이지 경로
+        const currentPath = window.location.pathname;
+
+        // 페이지 목록에서 현재 페이지 찾기
+        const pageStats = data.paths.find(p => p.path === currentPath);
+
+        if (pageStats) {
+          document.getElementById('pageviews').innerText = pageStats.count;
+        } else {
+          document.getElementById('pageviews').innerText = '0';
+        }
+      });
+      </script>
+
       {{ site.data.locales[lang].post.posted }}
       {% include datetime.html date=page.date tooltip=true lang=lang %}
       <!-- 눈 아이콘만 있는 깔끔한 버전 -->
