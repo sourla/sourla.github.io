@@ -13,8 +13,6 @@ tail_includes:
 
 <h1 data-toc-skip>{{ page.title }}</h1>
 
-<script data-goatcounter="https://sourla.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
 
 <div class="post-meta text-muted">
     <!-- published date -->
@@ -87,7 +85,7 @@ tail_includes:
       {% endif %}
 
       <!-- read time -->
-      <em id="page-views"></em> views
+      <em id="pageviews"></em> views
       {% include read-time.html content=content prompt=true lang=lang %}
     </div>
 
@@ -156,9 +154,5 @@ tail_includes:
   </div><!-- .post-tail-bottom -->
 
   <!-- 조회수 불러오기 및 표시 -->
-  <script>
-    window.goatcounter && window.goatcounter.visit_count({
-      append: '#page-views'
-    });
-  </script>
+  <script> let pv = document.getElementById('pageviews'); if (pv !== null) { const uri = location.pathname.replace(/\/$/, ''); const url = `https://sourla.goatcounter.com/counter/${encodeURIComponent(uri)}.json`; fetch(url) .then((response) => response.json()) .then((data) => { const count = data.count.replace(/\s/g, ''); pv.innerText = new Intl.NumberFormat().format(count); }) .catch((error) => { pv.innerText = '1'; }); } </script>
 </div><!-- div.post-tail-wrapper -->
