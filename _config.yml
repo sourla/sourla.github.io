@@ -52,8 +52,6 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 
 # Web Analytics Settings
 analytics:
-  google:
-    id: # fill in your Google Analytics ID
   goatcounter:
     id: sourla  # fill in your GoatCounter ID
 # Page views settings
