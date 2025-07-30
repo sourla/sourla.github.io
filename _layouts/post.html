@@ -25,17 +25,10 @@ tail_includes:
       </div>
 
       <script>
-      // GoatCounter API v0은 페이지별 조회수를 직접 제공하지 않음
-      // 대신 이렇게 해야 합니다:
-
-      // 1. 전체 통계에서 현재 페이지 찾기
       fetch('https://sourla.goatcounter.com/api/v0/stats/pages')
       .then(r => r.json())
       .then(data => {
-        // 현재 페이지 경로
         const currentPath = window.location.pathname;
-
-        // 페이지 목록에서 현재 페이지 찾기
         const pageStats = data.paths.find(p => p.path === currentPath);
 
         if (pageStats) {
